@@ -2,6 +2,7 @@ package  com.fhl.test
 
 import android.app.Application
 import android.content.Context
+import android.support.multidex.MultiDex
 import com.danikula.videocache.HttpProxyCacheServer
 import info.guardianproject.netcipher.client.TlsOnlySocketFactory
 import javax.net.ssl.HttpsURLConnection
@@ -21,9 +22,15 @@ import javax.net.ssl.SSLContext
  * @Version:        1.0
  */
 class MyApplication : Application() {
+
     companion object {
         lateinit var sContext: Context
 
+    }
+
+    override fun attachBaseContext(base: Context?) {
+        super.attachBaseContext(base)
+        MultiDex.install(this);
     }
     override fun onCreate() {
         super.onCreate()

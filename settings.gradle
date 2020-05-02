@@ -1,2 +1,5 @@
 rootProject.name='TestApplication'
 include ':app'
+include ':ffmpeg'
+//include ':openCV430'
+include ':openCVLibrary330'
