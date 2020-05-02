@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">进度条</string>
+    <string name="live_title_name">MoGuFM</string>
+    <string name="live_status_default">Not Started</string>
+    <string name="live_content_default">MoGu Help</string>
+    <string name="live_presenter_default">Presenter: </string>
+    <string name="live_duration_hint">"Live Time    "</string>
+    <string name="live_duration_default">13:00:00 – 15:00:00</string>
+    <string name="live_tips_title_default">MoGu Help</string>
+    <string name="live_tips_1_default">Scan The QR Code </string>
+    <string name="live_tips_2_default">Call 400–800–4800</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="a_fragment">A Fragment</string>
+    <string name="b_fragment">B Fragment</string>
+</resources>

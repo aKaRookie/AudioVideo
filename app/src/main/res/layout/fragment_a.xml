@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wave_line_end_color"
+    tools:context=".fragment.AFragment">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/glSurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/dp_60"
+        android:layout_marginVertical="@dimen/dp_60" />
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a_fragment"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_24" />
+</FrameLayout>

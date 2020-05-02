@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#171717</color>
+    <color name="colorPrimaryDark">#171717</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_apha_80">#CFFFFFFF</color>
+    <color name="black">#000000</color>
+
+
+    <color name="live_progress_bg_color_inline">#FFFFFFFF</color>
+    <color name="live_progress_bg_color_outline">#FFFFFFFF</color>
+    <color name="live_progress_bg_color_point">#ffffffff</color>
+    <color name="live_progress_text_bg_color">#7fffffff</color>
+    <color name="color_09CCA6">#09CCA6</color>
+    <color name="color_1DAC93">#1DAC93</color>
+    <color name="color_171717">#171717</color>
+    <color name="color_99FFFFFF">#99FFFFFF</color>  // 60%
+    <color name="color_353C43">#353C43</color>
+    <color name="color_2F3332">#2F3332</color>
+    <color name="color_2D3130">#2D3130</color>
+    <color name="color_D7D7D7">#D7D7D7</color>
+
+    <color name="wave_line_start_color">#FF3F57</color>
+    <color name="wave_line_end_color">#FF654C</color>
+
+</resources>

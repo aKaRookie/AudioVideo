@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 水平进度条 (带文字)-->
+    <declare-styleable name="HorzTextProgressView">
+        <attr name="progress_horz_text_start" format="integer"/>  //开始时间文字
+        <attr name="progress_horz_text_margin_start" format="integer"/>  //开始时间文字
+        <attr name="progress_horz_text_end" format="integer"/>  //结束时间文字
+        <attr name="progress_horz_textSize" format="dimension"/> //文字大小
+        <attr name="progress_horz_textColor" format="color"/> //文字颜色
+        <attr name="progress_horz_text_margin" format="dimension"/> //文字与进度条间距
+
+        <!--<attr name="liys_progress_horz_labelColor" format="color"/>-->
+        <attr name="progress_horz_inLineSize" format="dimension"/>  //进度条 内层大小
+        <attr name="progress_horz_outLineSize" format="dimension"/>  //进度条 外层大小
+        <attr name="progress_horz_inLineColor" format="color"/> //进度条 内层颜色
+        <attr name="progress_horz_outLineColor" format="color"/> //进度条 外层颜色
+        <attr name="progress_horz_pointSize" format="dimension"/>  //进度点大小
+        <attr name="progress_horz_pointColor" format="color"/> //进度点颜色
+        <attr name="progress_horz_rect_w" format="dimension"/> //进度点长方形 宽
+        <attr name="progress_horz_rect_h" format="dimension"/> //进度点长方形 高
+        <attr name="progress_horz_dy" format="dimension"/> //默认时间与进度条Y间距
+        <attr name="progress_horz_bg_rect_h" format="dimension"/> //默认时间与进度条Y间距
+    </declare-styleable>
+
+    <declare-styleable name="VisualizerView">
+        <attr format="integer" name="numColumns"/>
+        <attr format="color" name="renderColor"/>
+        <attr format="integer" name="spaceMax"/>
+        <attr format="integer" name="spaceMin"/>
+    </declare-styleable>
+
+    <declare-styleable name="RecordWaveView">
+        <attr name="space" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="maxHeight" format="dimension" />
+        <attr name="minHeight" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineColor_start" format="color" />
+        <attr name="lineColor_end" format="color" />
+    </declare-styleable>
+</resources>
